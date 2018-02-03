@@ -1,4 +1,4 @@
-Performing Exploratory Data Analysis (EDA) and 
+studentar Performing Exploratory Data Analysis (EDA) and 
 non-regularized linear regression to solve a supervised regression problem on the dataset and
 predict scaled sound pressure level.
 The data consists of 1,503 instances, each with 6 attributes obtained from a series of aerodynamic and 
