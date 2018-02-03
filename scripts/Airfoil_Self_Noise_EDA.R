@@ -15,7 +15,7 @@ names(airfoil_self_noise) <- c("FREQ", "AOA", "CL", "VEL", "SSDT", "SSPL")
 class(airfoil_self_noise)
 
 summary(airfoil_self_noise)
-
+# Str
 str(airfoil_self_noise)
 
 # Data Preprocessing
