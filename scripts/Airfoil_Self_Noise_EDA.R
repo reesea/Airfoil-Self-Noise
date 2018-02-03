@@ -41,7 +41,7 @@ airfoil_self_noise %>% ggplot(aes(FREQ, SSPL)) +
 
 airfoil_self_noise %>% ggplot(aes(AOA, SSPL)) +
   geom_point(color= "darkgreen", alpha = 0.3) +
-  ggtitle(" Angle of Attack vs Scaled Sound Pressure Level") +
+  ggtitle("Angle of Attack vs Scaled Sound Pressure Level") +
   xlab("Angle of Attack") +
   ylab("Scaled Sound Pressure Level") +
   theme(plot.title = element_text(color="darkred",
