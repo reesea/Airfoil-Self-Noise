@@ -1,6 +1,6 @@
 # Exploratory Data Analysis (EDA)
 Performing non-regularized linear regression to solve a supervised regression problem on the dataset and
-predict scaled sound pressure level.--
+predict scaled sound pressure level.
 
 ## Dataset
 The data consists of 1,503 instances, each with 6 attributes obtained from a series of aerodynamic and 
