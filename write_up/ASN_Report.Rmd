@@ -1,0 +1,35 @@
+---
+title: "Airfoil Self Noise"
+author: "Anthony Reese"
+date: "March 30, 2018"
+output: html_document
+---
+```{r}
+# Load packages
+library(ggplot2)
+```
+
+```{r}
+load("Airfoil_Self_Noise.RData")
+```
+# Data
+Here is a look at the data frames first and last few rows.
+```{r}
+head(airfoil_self_noise)
+tail(airfoil_self_noise)
+```
+# Figure
+Here's a figure of the predictions vs test data.
+```{r, fig.align='center'}
+ggplot(my_data,aes(predicted, observed)) +
+  geom_point(color = "darkred", alpha = 0.5) + 
+  geom_smooth(method=lm)+ ggtitle('Linear Regression ') +
+  ggtitle("Linear Regression: Prediction vs Test Data") +
+  xlab("Predicited Scaled Sound Pressure Level") +
+  ylab("Observed Scaled Sound Pressure Level") +
+  theme(plot.title = element_text(color="darkgreen",size=18,hjust = 0.5),
+        axis.text.y = element_text(size=12),
+        axis.text.x = element_text(size=12,hjust=.5),
+        axis.title.x = element_text(size=14),
+        axis.title.y = element_text(size=14))
+```
