@@ -13,7 +13,7 @@ library(ggplot2)
 load("Airfoil_Self_Noise.RData")
 ```
 # Data
-Here is a look at the data frames first and last few rows.
+Here's a look at the data frames first and last few rows.
 ```{r}
 head(airfoil_self_noise)
 tail(airfoil_self_noise)
