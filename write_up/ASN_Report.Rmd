@@ -28,6 +28,7 @@ dim(airfoil_self_noise)
 map(airfoil_self_noise, class)
 map(airfoil_self_noise, ~sum(is.na(.)))
 ```
+# Figure
 ```{r}
 airfoil_self_noise %>% ggplot(aes(FREQ, SSPL)) +
   geom_point(color= "blue", alpha = 0.3) +
