@@ -5,5 +5,5 @@ predict scaled sound pressure level.
 ## Dataset
 NASA data set consisting of 1,503 instances, each with 6 attributes obtained from a series of aerodynamic and 
 acoustic tests of two and three-dimensional airfoil blade sections conducted in an anechoic wind tunnel.
-More details about the dataset can be found at the University of California, Irvine at UCI Machine Learning Repository Data Set page
+More details about the dataset can be found at the University of California, Irvine at UCI Machine Learning Repository Data Set page.
 (http://archive.ics.uci.edu/ml/datasets/Airfoil+Self-Noise).
